@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;600&family=Poppins:wght@200;300;400;600;700&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+}
+
+
+nav {
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 110px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Martel Sans", sans-serif;
+  margin: 0 10px;
+  font-size: 55px;
+}
+
+
+.main {
+  background-image: url(assests/armchair-green-living-room-with-copy-space.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+.caption {
+  color: #ffffff;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 110px;
+}
+
+.center-button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 50px;
+  background-color: #F0BB78;
+  color: #212121;
+  border: none;
+  border-radius: 75px;
+  font-size: 52px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.center-button:hover {
+  background-color: #444;
+}
+
+
+.second {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.second h1 {
+  font-size: 100px;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 70vh;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+  text-align: center;
+}
+
+.product img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product h2 {
+  font-size: 58px;
+  margin-bottom: 10px;
+  color: #E1AA36;
+}
+
+.para {
+  font-family: "Martel Sans", sans-serif;
+  color: #ffffff;
+  font-size: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.third {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #E1AA36;
+  background-color: #222831;
+}
+
+.side-by-side {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.side-by-side img {
+  width: 100vh;
+  height: auto;
+}
+
+.text-content h1 {
+  font-size: 228px;
+  margin-bottom: 10px;
+}
+
+.text-content h2 {
+  font-size: 80px;
+  font-weight: 300;
+  color: #E1AA36;
+}
+
+.text-content p {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #ffffff;
+}
+
+.side-by {
+  display: flex;
+  align-items: center;
+  gap: 70vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.side-by img {
+  width: 60vh;
+  height: auto;
+}
+
+.text {
+  max-width: 400px;
+}
+
+.text h1 {
+  font-size: 158px;
+  margin-bottom: 10px;
+}
+
+.text h2 {
+  font-size: 54px;
+  font-weight: 300;
+  color: #F0BB78;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+.text p {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+.fifth{
+background-color: #222831;
+font-size: 50px;
+color: #E1AA36;
+padding-left: 70px;
+
+
+}
+.fifth a{
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+}
+.fifth a:hover{
+    transition: background-color 0.3s ease;
+    color:#E1AA36;
+
+}
+.button-search{
+  width:500px;
+  height: 60px;
+  margin-right: 60px;
+  border-radius: 110px;
+  font-size: 30px;
+  text-align:center;
+}
+
+
+.explore-btn,
+.explore-btn-two {
+  margin-top: 40px;
+  padding: 32px 45px;
+  font-size: 60px;
+  background-color: #F0BB78;
+  color: #212121;
+  border: none;
+  border-radius: 150px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.explore-btn:hover,
+.explore-btn-two:hover {
+  background-color: #E1AA36;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #212121;
+  color: white;
+  padding: 30px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-text {
+  color: #F0BB78;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 20px;
+}
+
+footer a {
+  color: white;
+  font-size: 45px;
+  text-decoration: none;
+  font-weight: 100;
+  row-gap: 30px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.button-email {
+  width: 600px;
+  height: 80px;
+  padding: 3px 34px;
+  font-size: 38px;
+  margin-top: 50px;
+}
+
+.footer-name {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+  padding-right: 10px;
+}
+
+.last-footer {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  gap: 45px;
+}
+
+.last-footer a {
+  color: white;
+  font-size: 34px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.last-footer a:hover {
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 1200px) {
+  nav {
+    flex-direction: column;
+    font-size: 35px;
+    height: auto;
+    padding: 20px;
+  }
+
+  nav a {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+
+  .caption {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .center-button {
+    font-size: 30px;
+    padding: 15px 30px;
+  }
+
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .product img {
+    width: 280px;
+  }
+
+  .product h2 {
+    font-size: 38px;
+  }
+
+  .para {
+    font-size: 28px;
+    white-space: normal;
+  }
+
+  .side-by-side,
+  .side-by {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .side-by-side img,
+  .side-by img {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .text-content h1,
+  .text h1 {
+    font-size: 70px;
+  }
+
+  .text-content h2,
+  .text h2 {
+    font-size: 40px;
+    white-space: normal;
+  }
+
+  .text-content p,
+  .text p {
+    font-size: 28px;
+    white-space: normal;
+  }
+
+  .explore-btn,
+  .explore-btn-two {
+    font-size: 30px;
+    padding: 20px 30px;
+  }
+
+  .grid-boxes {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    overflow-x: hidden;
+  }
+
+  .box {
+    width: 90%;
+    height: auto;
+    border-bottom-right-radius: 100px;
+  }
+
+  .box-img {
+    width: 100%;
+    height: auto;
+    border-bottom-right-radius: 100px;
+  }
+
+  .box-content h2 {
+    font-size: 38px;
+  }
+
+  .box-content {
+    padding: 10px;
+  }
+
+  .button-email {
+    width: 100%;
+  }
+}
